@@ -12,6 +12,11 @@
     <module>cloud-api-commons</module>
     <module>cloudalibaba-provider-payment9004</module>
     <module>cloudalibaba-consumer-nacos-order84</module>
+      <module>seata-order-service2001</module>
+    <module>seata-storage-service2002</module>
+      <module>seata-account-service2003</module>
+    <module>boot-redis01</module>
+    <module>boot-redis02</module>
   </modules>
 
   <packaging>pom</packaging>
@@ -70,11 +75,11 @@
         <version>${druid.version}</version>
       </dependency>
 
-      <dependency>
-        <groupId>org.mybatis.spring.boot</groupId>
-        <artifactId>mybatis-spring-boot-starter</artifactId>
-        <version>${mybatis.spring.boot.version}</version>
-      </dependency>
+      <!--<dependency>-->
+        <!--<groupId>org.mybatis.spring.boot</groupId>-->
+        <!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
+        <!--<version>${mybatis.spring.boot.version}</version>-->
+      <!--</dependency>-->
 
 
       <!--
